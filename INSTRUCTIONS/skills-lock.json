@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "agent-tools": {
+      "source": "inference-sh/skills",
+      "sourceType": "github",
+      "computedHash": "00f8ff84839ec5fea4c04c0c7a4d35a5106384469cb66e99a8e964a5b292460a"
+    }
+  }
+}

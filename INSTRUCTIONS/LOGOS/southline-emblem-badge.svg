@@ -1,0 +1,15 @@
+<svg viewBox="0 0 140 140" width="140" height="140" xmlns="http://www.w3.org/2000/svg">
+  <rect width="140" height="140" fill="#1c2e45"/>
+  <defs>
+    <linearGradient id="pin-grad3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e83535"/>
+      <stop offset="100%" stop-color="#b51e1e"/>
+    </linearGradient>
+  </defs>
+  <circle cx="70" cy="70" r="66" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.15"/>
+  <circle cx="70" cy="70" r="60" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.08"/>
+  <path d="M70 20 C50 20 36 34 36 54 C36 76 70 108 70 108 C70 108 104 76 104 54 C104 34 90 20 70 20Z" fill="url(#pin-grad3)"/>
+  <circle cx="70" cy="52" r="14" fill="#1c2e45"/>
+  <circle cx="70" cy="52" r="7" fill="#e83535"/>
+  <text x="70" y="128" font-family="'Barlow Condensed', 'Arial Narrow', Arial, sans-serif" font-weight="700" font-size="13" fill="#ffffff" letter-spacing="3" text-anchor="middle" opacity="0.7">SSM</text>
+</svg>

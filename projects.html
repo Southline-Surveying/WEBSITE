@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Southline Surveying & Mapping project portfolio — boundary surveys, topographic mapping, LiDAR terrain modeling, and UAV corridor mapping.">
+  <title>Projects | Southline Surveying & Mapping</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- ── NAV ──────────────────────────────────────────────────── -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="Southline — Home">
+        <svg viewBox="0 0 290 42" width="210" height="30" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs><linearGradient id="nav-pin-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e83535"/><stop offset="100%" stop-color="#b51e1e"/></linearGradient></defs>
+          <path d="M15 2 C10 2 6 6 6 12 C6 19 15 29 15 29 C15 29 24 19 24 12 C24 6 20 2 15 2Z" fill="url(#nav-pin-g)"/>
+          <circle cx="15" cy="11" r="3.5" fill="#0f1d35"/>
+          <circle cx="15" cy="11" r="2" fill="#e83535"/>
+          <text x="33" y="22" font-family="'Barlow Condensed','Arial Narrow',Arial,sans-serif" font-weight="900" font-size="23" fill="#ffffff" letter-spacing="0.5">SOUTHLINE</text>
+          <line x1="196" y1="6" x2="196" y2="32" stroke="#ffffff" stroke-width="0.75" opacity="0.14"/>
+          <text x="204" y="18" font-family="'Barlow Condensed','Arial Narrow',Arial,sans-serif" font-weight="400" font-size="9" fill="#8c9ab0" letter-spacing="1.5">SURVEYING</text>
+          <text x="204" y="29" font-family="'Barlow Condensed','Arial Narrow',Arial,sans-serif" font-weight="400" font-size="9" fill="#8c9ab0" letter-spacing="1.5">&amp; MAPPING</text>
+        </svg>
+      </a>
+      <nav class="nav-links">
+        <a href="services.html">Services</a>
+        <a href="geospatial.html">Geospatial</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-right">
+        <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+      </div>
+      <button class="nav-hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="nav-drawer">
+    <a href="services.html">Services</a>
+    <a href="geospatial.html">Geospatial</a>
+    <a href="projects.html">Projects</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+  </div>
+
+  <main>
+
+    <!-- ── PAGE HERO ────────────────────────────────────────────── -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span style="color:rgba(255,255,255,0.55);">Projects</span>
+        </div>
+        <span class="eyebrow eyebrow--dark">Our Work</span>
+        <h1>Recent Projects</h1>
+        <p>A selection of land surveying and geospatial projects across residential, commercial, infrastructure, and environmental applications.</p>
+      </div>
+    </section>
+
+    <!-- ── PROJECTS GALLERY ──────────────────────────────────────── -->
+    <section class="section section--warm">
+      <div class="container">
+
+        <div class="projects-filter">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="surveying">Land Surveying</button>
+          <button class="filter-btn" data-filter="geospatial">Geospatial</button>
+        </div>
+
+        <div class="projects-grid" id="projects-grid">
+
+          <div class="project-card" data-category="surveying">
+            <div class="project-card-ph">
+              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="8" y="8" width="24" height="24" fill="none" stroke="white" stroke-width="1" stroke-dasharray="4,3" opacity="0.3"/>
+                <circle cx="8" cy="8" r="2" fill="rgba(155,32,32,0.6)"/>
+                <circle cx="32" cy="8" r="2" fill="rgba(155,32,32,0.6)"/>
+                <circle cx="8" cy="32" r="2" fill="rgba(155,32,32,0.6)"/>
+                <circle cx="32" cy="32" r="2" fill="rgba(155,32,32,0.6)"/>
+              </svg>
+            </div>
+            <div class="project-overlay">
+              <div class="project-name">Residential Boundary Survey</div>
+              <div class="project-type">Boundary Survey &nbsp;·&nbsp; San Antonio, TX</div>
+            </div>
+          </div>
+
+          <div class="project-card" data-category="geospatial">
+            <div class="project-card-ph">
+              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M5 30 Q10 20 15 22 Q20 24 25 15 Q30 6 35 10" stroke="white" stroke-width="1.5" fill="none" opacity="0.4"/>
+                <path d="M5 35 Q10 25 15 27 Q20 29 25 20 Q30 11 35 15" stroke="rgba(46,80,144,0.6)" stroke-width="1" fill="none"/>
+              </svg>
+            </div>
+            <div class="project-overlay">
+              <div class="project-name">LiDAR Terrain Model</div>
+              <div class="project-type">LiDAR Mapping &nbsp;·&nbsp; Bexar County, TX</div>
+            </div>
+          </div>
+
+          <div class="project-card" data-category="surveying">
+            <div class="project-card-ph">
+              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="5" y="20" width="30" height="15" fill="none" stroke="white" stroke-width="1" opacity="0.3"/>
+                <rect x="5" y="10" width="12" height="10" fill="none" stroke="white" stroke-width="1" opacity="0.3"/>
+                <rect x="23" y="10" width="12" height="10" fill="none" stroke="white" stroke-width="1" opacity="0.3"/>
+                <line x1="5" y1="35" x2="35" y2="35" stroke="rgba(155,32,32,0.5)" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <div class="project-overlay">
+              <div class="project-name">Commercial Subdivision Plat</div>
+              <div class="project-type">Subdivision &nbsp;·&nbsp; New Braunfels, TX</div>
+            </div>
+          </div>
+
+          <div class="project-card" data-category="geospatial">
+            <div class="project-card-ph">
+              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="20" cy="10" r="4" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                <line x1="20" y1="14" x2="5" y2="28" stroke="white" stroke-width="1" opacity="0.3"/>
+                <line x1="20" y1="14" x2="35" y2="28" stroke="white" stroke-width="1" opacity="0.3"/>
+                <line x1="5" y1="28" x2="35" y2="28" stroke="white" stroke-width="1" opacity="0.3"/>
+                <path d="M10 28 L10 35 M20 28 L20 35 M30 28 L30 35" stroke="rgba(46,80,144,0.5)" stroke-width="1"/>
+              </svg>
+            </div>
+            <div class="project-overlay">
+              <div class="project-name">UAV Corridor Mapping</div>
+              <div class="project-type">UAV Aerial Mapping &nbsp;·&nbsp; Comal County, TX</div>
+            </div>
+          </div>
+
+          <div class="project-card" data-category="surveying">
+            <div class="project-card-ph">
+              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <polygon points="8,32 12,14 28,12 34,20 30,32" fill="none" stroke="white" stroke-width="1" stroke-dasharray="4,3" opacity="0.4"/>
+                <circle cx="12" cy="14" r="2" fill="none" stroke="rgba(155,32,32,0.7)" stroke-width="1.5"/>
+                <circle cx="28" cy="12" r="2" fill="none" stroke="rgba(155,32,32,0.7)" stroke-width="1.5"/>
+                <text x="18" y="24" font-family="monospace" font-size="6" fill="rgba(46,80,144,0.6)" text-anchor="middle">ALTA</text>
+              </svg>
+            </div>
+            <div class="project-overlay">
+              <div class="project-name">ALTA/NSPS Survey</div>
+              <div class="project-type">Commercial Real Estate &nbsp;·&nbsp; Austin, TX</div>
+            </div>
+          </div>
+
+          <div class="project-card" data-category="geospatial">
+            <div class="project-card-ph">
+              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="4" y="4" width="32" height="32" rx="2" fill="none" stroke="white" stroke-width="1" opacity="0.3"/>
+                <path d="M4 16 L36 16M4 24 L36 24M16 4 L16 36M24 4 L24 36" stroke="rgba(46,80,144,0.35)" stroke-width="0.75"/>
+                <circle cx="16" cy="16" r="4" fill="none" stroke="rgba(155,32,32,0.6)" stroke-width="1.5"/>
+                <path d="M20 20 L32 32" stroke="rgba(155,32,32,0.4)" stroke-width="1"/>
+              </svg>
+            </div>
+            <div class="project-overlay">
+              <div class="project-name">GIS Asset Inventory</div>
+              <div class="project-type">GIS &amp; Remote Sensing &nbsp;·&nbsp; Hays County, TX</div>
+            </div>
+          </div>
+
+          <div class="project-card" data-category="surveying">
+            <div class="project-card-ph">
+              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <line x1="6" y1="34" x2="34" y2="34" stroke="white" stroke-width="1.5" opacity="0.4"/>
+                <line x1="10" y1="34" x2="10" y2="10" stroke="white" stroke-width="1" opacity="0.3"/>
+                <line x1="20" y1="34" x2="20" y2="18" stroke="white" stroke-width="1" opacity="0.3"/>
+                <line x1="30" y1="34" x2="30" y2="14" stroke="white" stroke-width="1" opacity="0.3"/>
+                <path d="M6 20 Q12 8 20 12 Q28 16 34 6" stroke="rgba(46,80,144,0.5)" stroke-width="1.5" fill="none"/>
+              </svg>
+            </div>
+            <div class="project-overlay">
+              <div class="project-name">Topographic Survey</div>
+              <div class="project-type">Site Design &nbsp;·&nbsp; Guadalupe County, TX</div>
+            </div>
+          </div>
+
+          <div class="project-card" data-category="geospatial">
+            <div class="project-card-ph">
+              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="20" cy="20" r="14" fill="none" stroke="white" stroke-width="1" opacity="0.3"/>
+                <circle cx="20" cy="20" r="8" fill="none" stroke="rgba(46,80,144,0.5)" stroke-width="1"/>
+                <circle cx="20" cy="20" r="2" fill="rgba(155,32,32,0.7)"/>
+                <line x1="20" y1="6" x2="20" y2="14" stroke="white" stroke-width="1" opacity="0.3"/>
+                <line x1="34" y1="20" x2="28" y2="20" stroke="white" stroke-width="1" opacity="0.3"/>
+                <line x1="20" y1="34" x2="20" y2="26" stroke="white" stroke-width="1" opacity="0.3"/>
+                <line x1="6" y1="20" x2="12" y2="20" stroke="white" stroke-width="1" opacity="0.3"/>
+              </svg>
+            </div>
+            <div class="project-overlay">
+              <div class="project-name">Infrastructure Terrain Model</div>
+              <div class="project-type">LiDAR &amp; DTM &nbsp;·&nbsp; Travis County, TX</div>
+            </div>
+          </div>
+
+          <div class="project-card" data-category="surveying">
+            <div class="project-card-ph">
+              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="6" y="6" width="28" height="28" fill="none" stroke="white" stroke-width="1" stroke-dasharray="4,3" opacity="0.35"/>
+                <line x1="18" y1="6" x2="18" y2="34" stroke="white" stroke-width="0.75" opacity="0.25"/>
+                <line x1="6" y1="18" x2="34" y2="18" stroke="white" stroke-width="0.75" opacity="0.25"/>
+                <circle cx="6" cy="6" r="2" fill="none" stroke="rgba(155,32,32,0.7)" stroke-width="1.5"/>
+                <circle cx="34" cy="6" r="2" fill="none" stroke="rgba(155,32,32,0.7)" stroke-width="1.5"/>
+                <circle cx="6" cy="34" r="2" fill="none" stroke="rgba(155,32,32,0.7)" stroke-width="1.5"/>
+                <circle cx="34" cy="34" r="2" fill="none" stroke="rgba(155,32,32,0.7)" stroke-width="1.5"/>
+                <text x="20" y="22" font-family="monospace" font-size="5" fill="rgba(46,80,144,0.6)" text-anchor="middle">STAKING</text>
+              </svg>
+            </div>
+            <div class="project-overlay">
+              <div class="project-name">Construction Layout</div>
+              <div class="project-type">Construction Staking &nbsp;·&nbsp; Kendall County, TX</div>
+            </div>
+          </div>
+
+        </div>
+
+        <p style="text-align:center; margin-top:32px; font-size:12px; color:var(--color-text-muted); font-weight:300;">
+          Photo documentation in progress. Project photos will be updated as they become available.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- ── CTA ──────────────────────────────────────────────────── -->
+    <section class="cta-band">
+      <div class="cta-band-inner">
+        <div class="cta-band-text">
+          <h2>Start Your Project with Southline</h2>
+          <p>Request a quote — we respond within one business day.</p>
+        </div>
+        <a href="contact.html" class="btn btn-white">Request a Quote</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ───────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-brand-logo">
+          <svg viewBox="0 0 420 100" width="190" height="45" xmlns="http://www.w3.org/2000/svg" aria-label="Southline Surveying & Mapping">
+            <defs><linearGradient id="fp5" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e83535"/><stop offset="100%" stop-color="#b51e1e"/></linearGradient></defs>
+            <path d="M34 14 C22 14 13 23 13 35 C13 50 34 72 34 72 C34 72 55 50 55 35 C55 23 46 14 34 14Z" fill="url(#fp5)"/>
+            <circle cx="34" cy="34" r="8" fill="#0a1628"/>
+            <circle cx="34" cy="34" r="4.5" fill="#e83535"/>
+            <text x="70" y="58" font-family="'Barlow Condensed','Arial Narrow',Arial,sans-serif" font-weight="900" font-size="52" fill="#ffffff" letter-spacing="1">SOUTHLINE</text>
+            <line x1="70" y1="67" x2="415" y2="67" stroke="#ffffff" stroke-width="1.5" opacity="0.12"/>
+            <text x="70" y="84" font-family="'Barlow Condensed','Arial Narrow',Arial,sans-serif" font-weight="400" font-size="14" fill="#8c9ab0" letter-spacing="3.5">SURVEYING &amp; MAPPING</text>
+          </svg>
+        </div>
+        <p class="footer-desc">Professional land surveying and advanced geospatial services. Licensed, insured, and committed to accuracy on every project.</p>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-header">Services</div>
+        <ul>
+          <li><a href="services.html#boundary">Boundary Surveys</a></li>
+          <li><a href="services.html#alta">ALTA/NSPS Surveys</a></li>
+          <li><a href="services.html#topo">Topographic Surveys</a></li>
+          <li><a href="services.html#staking">Construction Staking</a></li>
+          <li><a href="geospatial.html">Geospatial Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-header">Company</div>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Request a Quote</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-header">Contact</div>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M2.5 4.5h11v8a.5.5 0 01-.5.5h-10a.5.5 0 01-.5-.5v-8z" stroke="white" stroke-width="1"/><path d="M2.5 4.5l5.5 4 5.5-4" stroke="white" stroke-width="1"/></svg>
+          <a href="mailto:obi@southlinesurveying.com">obi@southlinesurveying.com</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Southline Surveying &amp; Mapping. All rights reserved.</p>
+      <span class="footer-bottom-badge">Licensed Professional Land Surveyor &nbsp;&middot;&nbsp; State of Texas</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

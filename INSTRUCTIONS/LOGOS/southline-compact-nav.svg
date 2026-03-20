@@ -1,0 +1,16 @@
+<svg viewBox="0 0 320 48" width="320" height="48" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="48" fill="#ffffff"/>
+  <defs>
+    <linearGradient id="pin-grad4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d42020"/>
+      <stop offset="100%" stop-color="#a01515"/>
+    </linearGradient>
+  </defs>
+  <path d="M17 3 C11 3 7 8 7 14 C7 21 17 33 17 33 C17 33 27 21 27 14 C27 8 23 3 17 3Z" fill="url(#pin-grad4)"/>
+  <circle cx="17" cy="13" r="4" fill="#ffffff"/>
+  <circle cx="17" cy="13" r="2" fill="#d42020"/>
+  <text x="36" y="26" font-family="'Barlow Condensed', 'Arial Narrow', Arial, sans-serif" font-weight="800" font-size="26" fill="#1435b5" letter-spacing="0.5">SOUTHLINE</text>
+  <line x1="230" y1="8" x2="230" y2="36" stroke="#1435b5" stroke-width="0.75" opacity="0.2"/>
+  <text x="238" y="22" font-family="'Barlow Condensed', 'Arial Narrow', Arial, sans-serif" font-weight="400" font-size="10" fill="#999999" letter-spacing="1.5">SURVEYING</text>
+  <text x="238" y="34" font-family="'Barlow Condensed', 'Arial Narrow', Arial, sans-serif" font-weight="400" font-size="10" fill="#999999" letter-spacing="1.5">&amp; MAPPING</text>
+</svg>

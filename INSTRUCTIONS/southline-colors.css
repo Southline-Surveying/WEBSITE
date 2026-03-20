@@ -1,0 +1,78 @@
+/* ============================================
+   SOUTHLINE SURVEYING & MAPPING
+   Brand Color System — Palette C: Navy & Warm Gray
+   ============================================ */
+
+:root {
+
+  /* --- Primary Brand --- */
+  --color-navy-dark:      #0a1628;   /* Footer bg, deepest dark */
+  --color-navy:           #0f1d35;   /* Nav bar, footer */
+  --color-navy-mid:       #1c3058;   /* Hero background */
+  --color-blue:           #2e5090;   /* Accent, links, card dots, icons */
+
+  /* --- Red (use sparingly — CTA buttons only) --- */
+  --color-red:            #9b2020;   /* Primary CTA button */
+  --color-red-hover:      #b52525;   /* CTA hover state */
+
+  /* --- Backgrounds --- */
+  --color-bg:             #f7f6f3;   /* Page background (warm off-white) */
+  --color-surface:        #ffffff;   /* Cards, content areas */
+  --color-surface-alt:    #e8e6e1;   /* Dividers, subtle borders, secondary surfaces */
+
+  /* --- Text --- */
+  --color-text:           #0f1d35;   /* Headings, primary text */
+  --color-text-body:      #4a5568;   /* Body copy, paragraphs */
+  --color-text-muted:     #6b7280;   /* Captions, card descriptions */
+  --color-text-subtle:    #8c9ab0;   /* Subtitles on dark bg, nav links */
+
+  /* --- Borders --- */
+  --color-border:         #e8e6e1;   /* Card borders, dividers */
+  --color-border-dark:    rgba(255, 255, 255, 0.1); /* Borders on dark sections */
+
+  /* --- Blue tints (backgrounds, hover states) --- */
+  --color-blue-tint:      #e8edfb;   /* Icon backgrounds, tag backgrounds */
+  --color-blue-light:     #3b6aee;   /* Hover state for blue elements */
+
+  /* --- Red tints --- */
+  --color-red-tint:       #fdf0f0;   /* Alert backgrounds, tag backgrounds */
+
+}
+
+
+/* ============================================
+   USAGE GUIDE
+   ============================================
+
+   DARK SECTIONS (nav, footer, hero):
+   - Background:    var(--color-navy) or var(--color-navy-mid)
+   - Text:          #ffffff
+   - Muted text:    var(--color-text-subtle)
+   - Borders:       var(--color-border-dark)
+
+   LIGHT SECTIONS (services, about, content):
+   - Background:    var(--color-bg)
+   - Cards:         var(--color-surface) + border var(--color-border)
+   - Headings:      var(--color-text)
+   - Body text:     var(--color-text-body)
+   - Captions:      var(--color-text-muted)
+
+   BUTTONS:
+   - Primary CTA:   background var(--color-red), color #fff
+   - CTA hover:     background var(--color-red-hover)
+   - Ghost button:  border var(--color-border-dark), color rgba(255,255,255,0.55)
+
+   ACCENTS & ICONS:
+   - Blue accent:   var(--color-blue)
+   - Icon bg:       var(--color-blue-tint)
+   - Red accent:    var(--color-red) — use sparingly
+
+   SECTION EYEBROWS:
+   - On light bg:   var(--color-blue)
+   - On dark bg:    var(--color-text-subtle)
+
+   TYPOGRAPHY (recommended):
+   - Display/headings:  Barlow Condensed 700–900
+   - Body:              Barlow 300–500
+
+   ============================================ */
