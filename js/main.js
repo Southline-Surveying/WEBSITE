@@ -65,7 +65,7 @@
       var key = form.querySelector('input[name="access_key"]').value;
       if (!key || key.indexOf('REPLACE') === 0) {
         status.className = 'form__status is-err';
-        status.textContent = 'The contact form is not connected yet. Please email obi@southlinesurveying.com directly.';
+        status.textContent = 'The contact form is not connected yet. Please email info@southlinesurveying.com directly.';
         return;
       }
       status.className = 'form__status';
@@ -87,7 +87,7 @@
         }
       }).catch(function () {
         status.className = 'form__status is-err';
-        status.textContent = 'Something went wrong sending your request. Please email obi@southlinesurveying.com directly.';
+        status.textContent = 'Something went wrong sending your request. Please email info@southlinesurveying.com directly.';
       }).finally(function () {
         button.disabled = false;
         button.innerHTML = original;
