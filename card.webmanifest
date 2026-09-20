@@ -1,0 +1,12 @@
+{
+  "name": "Obi Ubasineke, Southline Surveying & Mapping",
+  "short_name": "Obi Southline",
+  "start_url": "/card",
+  "display": "standalone",
+  "background_color": "#0A1628",
+  "theme_color": "#0F1D35",
+  "icons": [
+    { "src": "/assets/card-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/assets/card-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
