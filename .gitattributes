@@ -1,2 +1,6 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# vCard and Wallet passes must keep their exact bytes
 *.vcf -text
 *.pkpass -text
